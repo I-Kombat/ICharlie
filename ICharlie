@@ -6,7 +6,7 @@ import static robocode.util.Utils.normalRelativeAngleDegrees;
 import java.awt.*;
 
 
-public class TrackFire extends Robot {
+public class ICharlie extends Robot {
 
 	public void run() {
 		// Set colors
