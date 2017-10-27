@@ -24,7 +24,7 @@ public class ICharlie extends BravoBot {
 		}
 	}
 
-	public void onRobotDetected(ScannedRobotEvent e) {
+	public void onScannedRobot(ScannedRobotEvent e) {
 		// Calculate exact location of the robot
 		double absoluteBearing = getHeading() + e.getBearing();
 		double bearingFromGun = normalRelativeAngleDegrees(absoluteBearing - getGunHeading());
