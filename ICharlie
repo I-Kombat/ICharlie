@@ -1,4 +1,4 @@
-import robocode.AlphaBot;
+import robocode.BravoBot;
 import robocode.CharlieBot;
 import robocode.Robot;
 import robocode.ScannedRobotEvent;
@@ -8,7 +8,7 @@ import static robocode.util.Utils.normalRelativeAngleDegrees;
 import java.awt.*;
 
 
-public class ICharlie extends AlphaBot {
+public class ICharlie extends BravoBot {
 
 	public void run() {
 		// Set colors
