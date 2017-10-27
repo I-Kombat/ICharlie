@@ -7,7 +7,7 @@ import static robocode.util.Utils.normalRelativeAngleDegrees;
 import java.awt.*;
 
 
-public class ICharlie extends CharlieBot {
+public class ICharlie extends AlphaBot {
 
 	public void run() {
 		// Set colors
